@@ -13,26 +13,34 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 header img {
-    width: 12%;
+    width: 30%;
     height: auto;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 nav {
     display: inline-block;
+    margin-top: 20px;
 }
 
 nav a {
     background-color: #22222200;
     border: 1px solid white;
-    padding: 10px 20px;
+    padding: 15px 30px;
+    margin-right: 10px;
     color: white;
     text-decoration: none;
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
+    font-size: 24px;
+}
+
+nav a:last-child {
+    margin-right: 0;
 }
 
 nav a:hover {
