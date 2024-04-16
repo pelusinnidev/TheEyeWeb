@@ -36,7 +36,3 @@ Guía sobre cómo contribuir al proyecto si es aplicable.
 - Teoaranda
 - Xavierete
 - PelusinniDev
-
-## Licencia
-
-Este proyecto está bajo la [Licencia XYZ](link_to_license).
