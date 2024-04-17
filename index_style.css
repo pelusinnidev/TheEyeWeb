@@ -70,11 +70,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-#MissatgeIntro h1 {
-    color: whitesmoke;
-}
-
-#MissatgeIntro:hover h1 {
+#Intro:hover #MissatgeIntro h1 {
     color: black;
 }
 
