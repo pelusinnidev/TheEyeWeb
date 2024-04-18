@@ -89,6 +89,46 @@ nav a:hover {
     height: auto;
 }
 
+#underIntro1  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5%;
+    background-color: rgb(14, 14, 14); /* rgb(29, 29, 29) */
+    border: 2px solid rgb(29, 29, 29);
+    transition: border-color 0.3s;
+    transition: background-color 0.3s;
+
+}
+
+#underIntro2  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5%;
+    background-color: rgb(14, 14, 14); /* rgb(29, 29, 29) */
+    border: 2px solid rgb(29, 29, 29);
+    transition: border-color 0.3s;
+    transition: background-color 0.3s;
+    
+}
+
+
+#MissatgeUnderIntro {
+
+    padding: 10%;
+    
+}
+
+
+#misstagesUnderIntroRow {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
 @media screen and (min-width: 768px) {
     #Intro {
         flex-direction: row;
