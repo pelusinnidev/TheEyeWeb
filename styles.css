@@ -89,6 +89,28 @@ nav a:hover {
     height: auto;
 }
 
+.MissatgesUnder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%; 
+    align-items: center;  /* This will center vertically */
+    justify-content: center; /* This will center horizontally */
+    border-radius: 20px;
+    margin: 10%;
+}
+
+.MissatgeUnder {
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 20px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 20px;
+}
+
+.MissatgeUnder p {
+    font-size: 20px;
+}
+
 @media screen and (min-width: 768px) {
     #Intro {
         flex-direction: row;
